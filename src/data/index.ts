@@ -1,3 +1,4 @@
+var blockies = require("./blockies");
 export const bottomBarDetails = [
   {
     heading: 'network',
@@ -41,7 +42,9 @@ export const dAppListData = [
     creatorAddress: '0x5baf69e0c9b4b54258a68c0f1abf896b240f62f0',
     network: 'Ropsten',
     imgSrc: 'http://i1.sndcdn.com/avatars-000199668626-19mwjq-original.jpg',
-    creatorImgSrc: 'https://avatars1.githubusercontent.com/u/6372489',
+    creatorImgSrc:  blockies.create({ seed:'id' ,size: 8,scale: 16}).toDataURL(),
+
+  //  'https://avatars1.githubusercontent.com/u/6372489',
   },
   {
     id: '4547647543543534545454',
