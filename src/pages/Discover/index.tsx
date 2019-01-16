@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { Text } from 'elements'
 import { dAppListData } from 'data'
-import { DAppList, TopApps } from 'components'
+import { DAppList, TopApps, Blockie } from 'components'
 
 import * as S from './styles'
 import { Rocket } from 'image'
