@@ -3,7 +3,7 @@ import { Container, Text, Button, LoginModalContainer } from 'elements'
 import { Toggle, Modal } from 'sharedComponent'
 
 import * as S from './styles'
-import { Info, DAppList, myBlockies } from 'components'
+import { Info, DAppList, Blockie } from 'components'
 import * as Images from 'image'
 import { spanStyleCss } from 'styles'
 
@@ -59,7 +59,7 @@ export default class Home extends Component {
           >
             Recent Public ÐApps
           </Text>
-         <myBlockies/>
+      <Blockie/>
        <DAppList data={dAppListData} small height={'500px'} />
           
 

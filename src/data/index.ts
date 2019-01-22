@@ -42,7 +42,7 @@ export const dAppListData = [
     createdAt: '2018-12-30T21:55:15.000Z',
     creatorAddress: '0x5baf69e0c9b4b54258a68c0f1abf896b240f62f0',
     network: 'Ropsten',
-    imgSrc: 'http://i1.sndcdn.com/avatars-000199668626-19mwjq-original.jpg',
+    imgSrc: 'http://i1.sndcdn.com/avatars--19mwjq-original.jpg',
     creatorImgSrc: 'https://avatars1.githubusercontent.com/u/6372489',
   },
   {

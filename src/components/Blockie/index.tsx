@@ -1,12 +1,12 @@
 import Blockies from 'react-blockies';
  
-export const myBlockies = () => (
+export const Blockie = () => (
   <Blockies
-    seed="Jeremy" 
+    seed="Jegremy" 
     size={10} 
     scale={3} 
-    color="#dfe" 
-    bgColor="#ffe" 
-    spotColor="#abc" 
+    color="#808080	" 
+    bgColor="#808080" 
+    spotColor="#FFFFFF" 
     className="identicon" />
 )
