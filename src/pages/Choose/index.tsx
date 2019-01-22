@@ -3,7 +3,6 @@ import { Text } from 'elements'
 
 import * as S from './styles'
 import { Icon } from 'components/shared'
-
 import * as Images from 'image'
 import { Link } from 'react-router-dom'
 
