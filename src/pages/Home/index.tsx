@@ -35,6 +35,7 @@ export default class Home extends Component {
               CONTRACTS
             </Text>
           </S.Box>
+
           <S.InfoContainer>
             {InfoData.map((info, i) => (
               <Info
@@ -45,8 +46,11 @@ export default class Home extends Component {
                 imgSrc={images[i]}
               />
             ))}
+
           </S.InfoContainer>
+          <Blockie/> 
         </Container>
+
         <Container flexFlow="column">
           <Text
             size={1.3}
@@ -59,7 +63,6 @@ export default class Home extends Component {
           >
             Recent Public ÐApps
           </Text>
-      <Blockie/>
        <DAppList data={dAppListData} small height={'500px'} />
           
 
